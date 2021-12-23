@@ -109,7 +109,7 @@ body {
   height: 40px;
   padding: 10px;
   border-radius: 20px;
-  border: none;
+  border: 2px solid var(--very-light-gray);
   background-color: var(--very-light-gray);
   font-family: var(--font-family-copy);
   font-weight: 700;
@@ -125,6 +125,14 @@ body {
 
 .section__main .section__main--card:nth-child(3) button {
   color: var(--very-dark-cyan);
+}
+
+.section__main .section__main--card:nth-child(1) button:hover,
+.section__main .section__main--card:nth-child(2) button:hover,
+.section__main .section__main--card:nth-child(3) button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--very-light-gray);
 }
 
 footer {
