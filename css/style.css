@@ -1,0 +1,24 @@
+:root {
+  /* Layout */
+  --mobile: 375px;
+  --desktop: 1440px;
+
+  /* Primary Colors */
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* Neutral Colors*/
+  --transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+  /* background, headings, buttons */
+  --very-light-gray: hsl(0, 0%, 95%);
+  
+  /* Typography */
+  --body-copy: 1.5rem;
+  /* Font Family */
+  --font-family-title: 'Big Shoulders Display', cursive;
+  --font-family-copy: 'Lexend Deca', sans-serif;
+  /* Font Weights */
+  --font-weight-medium: 400;
+  --font-weight-bold: 700;
+}
